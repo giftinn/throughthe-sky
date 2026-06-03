@@ -295,8 +295,8 @@ pointer-events:none;
 
 <!-- welcome -->
 <section class="card active">
-<h1>I belong to You</h1>
-<p>Special present For someone i love the most.</p>
+<h1>Hi Kenji</h1>
+<p>this is just for you. But you have to unlock it!</p>
 <button onclick="next()">Unlock</button>
 </section>
 
@@ -337,7 +337,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Between Us in Paris</h1>
+<h1>365 days are ours</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -391,7 +391,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '2505';
+const correctPin = '1520';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -439,9 +439,9 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did our story begin?", options:["January","May","March"],correct:1},
-{q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Game","Someone else","You"],correct:2}
+{q:"When did we first meet?", options:["Juli","June","agutus"],correct:1},
+{q:"What do I do when I miss you?", options:["Text you","eat","sleep"],correct:0},
+{q:"Who loves harder?", options:["You","me","both"],correct:2}
 ];
 
 let currentQ = 0;
@@ -506,7 +506,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2025-05-25T00:00:00");
+    const start = new Date("2025-06-05T00:00:00");
 
     setInterval(()=>{
 
@@ -541,7 +541,7 @@ function revealMemory(el){
     `;
 
     const text = `
-        I love you because you actually put effort into loving me. I love you because nobody has ever given me the love that you have given me and you are the only one that could ever love me this way. I love you because you always make me feel like I am worth something. I love you because you have a nurturing nature and you take care of me, especially on days that I need love the most. I love you because you make me smile when I have almost forgotten how to. I love you because you have a huge and honest heart. I love you and every little detail about you. I love you because you are simply you.
+        Happy 365 days to us, babe. Lagi lagi aku gak berhenti untuk terus bersyukur karena kita telah di pertemukan dan selalu punya kesempatan untuk terus bersama. Your presence always makes everything feel easy, feels fine and I always feel comfortable when I'm with you. Terimakasih karena selalu ada disini dan aku harap kamu selalu disini dalam waktu yang lama. I love you more than you anything, bibeyy
     `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
